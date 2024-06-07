@@ -1,6 +1,3 @@
-Certainly! Here is a description for your GitHub repository to attract more stars:
-
----
 
 # Spring AI with Ollama for RAG (Retrieve and Generate) using Custom Database
 
