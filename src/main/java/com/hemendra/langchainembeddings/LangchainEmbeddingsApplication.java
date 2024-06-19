@@ -16,10 +16,10 @@ import java.util.Map;
 @SpringBootApplication
 public class LangchainEmbeddingsApplication {
 
-    @Bean
-    VectorStore vectorStore(EmbeddingModel embeddingModel) {
+    /*@Bean
+    VectorStore vectorStore(EmbeddingModel embeddingModel) { //this is required when I am using redis
         return new SimpleVectorStore(embeddingModel);
-    }
+    }*/
 
     public static void main(String[] args) {
         SpringApplication.run(LangchainEmbeddingsApplication.class, args);
